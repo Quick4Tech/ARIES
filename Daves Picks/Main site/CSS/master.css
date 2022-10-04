@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  line-height: 0.1;
+}
+
+/* Title */
+
+.title-container {
+  font-family: "Montserrat";
+  font-weight: 300;
+  background-color: #140f3b;
+  text-align: center;
+  color: white;
+  padding: 70px 0 70px 0;
+}
+
+.sub-bold {
+  font-weight: 600;
+}
+
+#title-text {
+    font-weight: 600;
+    font-size: 3.5rem;
+}
