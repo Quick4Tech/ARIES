@@ -28,14 +28,23 @@ h1 {
 }
 
 .restaurant-type {
-  font-family: "Montserrat";
-  font-weight: 300;
   background-color: #140f3b;
   text-align: center;
   color: white;
-  padding: 0 0 20px 0;
+  padding: 5px 0 5px 0;
 }
 
 .restaurant-column {
-  line-height: 3rem;
+  padding: 10px 0 10px 0;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+.restaurant-column:hover {
+  font-weight: 600;
+  background-color: #1c1657;
+}
+
+.type-item {
+  margin-top: .5rem;
 }
