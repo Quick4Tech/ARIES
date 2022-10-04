@@ -14,7 +14,7 @@ h1 {
   background-color: #140f3b;
   text-align: center;
   color: white;
-  padding: 70px 0 70px 0;
+  padding: 70px 0 60px 0;
 }
 
 .sub-bold {
@@ -37,7 +37,6 @@ h1 {
 .restaurant-column {
   padding: 10px 0 10px 0;
   font-family: "Montserrat";
-  font-weight: 300;
 }
 
 .restaurant-column:hover {
@@ -46,5 +45,10 @@ h1 {
 }
 
 .type-item {
-  margin-top: .5rem;
+  margin-top: 1rem;
+  font-size: 1.75rem;
+}
+
+.button {
+  font-weight: 600;
 }
