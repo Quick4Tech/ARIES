@@ -25,3 +25,16 @@ h1 {
     font-weight: 600;
     font-size: 3.5rem;
 }
+
+.restaurant-type {
+  font-family: "Montserrat";
+  font-weight: 300;
+  background-color: #140f3b;
+  text-align: center;
+  color: white;
+  padding: 0 0 20px 0;
+}
+
+.restaurant-column {
+  line-height: 3rem;
+}
