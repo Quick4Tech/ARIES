@@ -37,7 +37,14 @@ h1 {
 .restaurant-column {
   padding: 10px 0 10px 0;
   font-family: "Montserrat";
+  display: block;
+  text-decoration: none;
+  color:#fff;
 }
+.restaurant-column:hover {
+  color: #fff;
+}
+
 
 .restaurant-column:hover {
   font-weight: 600;
