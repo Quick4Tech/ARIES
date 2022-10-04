@@ -14,7 +14,7 @@ h1 {
   background-color: #140f3b;
   text-align: center;
   color: white;
-  padding: 70px 0 60px 0;
+  padding: 10% 0 6% 0;
 }
 
 .sub-bold {
@@ -24,31 +24,22 @@ h1 {
 
 #title-text {
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 4rem;
+    margin-bottom: 40px;
 }
 
-.restaurant-type {
-  background-color: #140f3b;
+#title-buttons {
   text-align: center;
-  color: white;
-  padding: 5px 0 5px 0;
+  padding: 0 10% 25%;
+  background-color: #140f3b;
+}
+
+.btn {
+  font-family: "Work Sans";
+  font-size: 30px;
+  border-radius: 5rem;
 }
 
 .restaurant-column {
-  padding: 10px 0 10px 0;
-  font-family: "Montserrat";
-}
-
-.restaurant-column:hover {
-  font-weight: 600;
-  background-color: #1c1657;
-}
-
-.type-item {
-  margin-top: 1rem;
-  font-size: 1.75rem;
-}
-
-.button {
-  font-weight: 600;
+  margin: .5rem 0 .5rem 0
 }
