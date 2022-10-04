@@ -40,6 +40,13 @@ h1 {
   border-radius: 5rem;
 }
 
+.btn-primary {
+  /*background-image: url('https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/hjznkvic/b07fa72c-d2c1-4bf8-a97b-f4fd02aa03c6.jpg') !important;
+  background-size: cover;*/
+  background-color: #140f3b;
+  border-width: 3px
+  }
+
 .restaurant-column {
   margin: .5rem 0 .5rem 0
 }
