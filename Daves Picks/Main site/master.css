@@ -51,42 +51,42 @@ h1 {
 	  }
 
 	.pizza-btn {
-	  background-image: url("../images/pizza2.png");
+	  background-image: url("../images/pizza2.png") !important;
 	  background-size: cover;
 	}
 
 	.subs-btn {
-	  background-image: url('../images/sub.png');
+	  background-image: url('../images/sub.png') !important;
 	  background-size: cover;
 	}
 
 	.bars-btn {
-	    background-image: url('../images/bar.jpg');
+	    background-image: url('../images/bar.jpg') !important;
 	    background-size: cover;
 	}
 
 	.mexican-btn {
-	    background-image: url('../images/mexican.png');
+	    background-image: url('../images/mexican.png') !important;
 	    background-size: cover;
 	}
 
 	.diners-btn {
-	    background-image: url('../images/diner.png');
+	    background-image: url('../images/diner.png')  !important;
 	    background-size: cover;
 	}
 
 	.chinese-btn {
-	    background-image: url('../images/chinese.jpg');
+	    background-image: url('../images/chinese.jpg') !important;
 	    background-size: cover;
 	}
 
 	.fast-food-btn {
-	    background-image: url('../images/fast-food.jpg');
+	    background-image: url('../images/fast-food.jpg') !important;
 	    background-size: cover;
 	}
 
 	.treats-btn {
-	    background-image: url('../images/treats.jpg');
+	    background-image: url('../images/treats.jpg') !important;
 	    background-size: cover;
 	}
 
