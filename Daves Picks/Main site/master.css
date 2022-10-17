@@ -45,11 +45,57 @@ h1 {
   border-width: 3px
   }
 
-/*.pizza-btn {
-  background-image: url('https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/hjznkvic/b07fa72c-d2c1-4bf8-a97b-f4fd02aa03c6.jpg') !important;
-  background-size: cover;
-}
-*/
+	.btn-primary {
+	  background-color: #140f3b;
+	  border-width: 3px
+	  }
+
+	.pizza-btn {
+	  background-image: url("../images/pizza2.png");
+	  background-size: cover;
+	}
+
+	.subs-btn {
+	  background-image: url('../images/sub.png');
+	  background-size: cover;
+	}
+
+	.bars-btn {
+	    background-image: url('../images/bar.jpg');
+	    background-size: cover;
+	}
+
+	.mexican-btn {
+	    background-image: url('../images/mexican.png');
+	    background-size: cover;
+	}
+
+	.diners-btn {
+	    background-image: url('../images/diner.png');
+	    background-size: cover;
+	}
+
+	.chinese-btn {
+	    background-image: url('../images/chinese.jpg');
+	    background-size: cover;
+	}
+
+	.fast-food-btn {
+	    background-image: url('../images/fast-food.jpg');
+	    background-size: cover;
+	}
+
+	.treats-btn {
+	    background-image: url('../images/treats.jpg');
+	    background-size: cover;
+	}
+
+	.food2
+	{
+	  text-decoration: none;
+	  color: #fff;
+	  -webkit-text-stroke: 1px black;
+	}
 
 .restaurant-column {
   margin: .5rem 0 .5rem 0;
