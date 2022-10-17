@@ -37,6 +37,12 @@ h1 {
   font-family: "Work Sans";
   font-size: 30px;
   border-radius: 5rem;
+  font-weight: 300;
+	text-shadow:
+	-2px 2px 4px #000,
+	2px 2px 4px #000,
+	2px -2px 4px #000,
+	-2px -2px 4px #000;
 }
 
 .btn-primary {
@@ -93,7 +99,7 @@ h1 {
 .food2 {
   text-decoration: none;
   color: #fff;
-  -webkit-text-stroke: 1px black;
+  /* -webkit-text-stroke: 0.01px black; */
 }
 
 .restaurant-column {
