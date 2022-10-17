@@ -92,6 +92,7 @@ h1 {
 .food2 {
   text-decoration: none;
   color: #fff;
+  -webkit-text-stroke: 1px black;
 }
 
 .restaurant-column {
