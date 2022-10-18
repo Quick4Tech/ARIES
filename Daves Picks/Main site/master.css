@@ -6,6 +6,10 @@ h1 {
   line-height: 0.1;
 }
 
+.subtitle {
+	font-size: 1.5rem;
+}
+
 /* Title & Buttons */
 .title-container {
   font-family: "Montserrat";
@@ -18,12 +22,12 @@ h1 {
 
 .sub-bold {
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 #title-text {
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 5rem;
   margin-bottom: 40px;
 }
 
@@ -34,7 +38,7 @@ h1 {
 }
 
 .btn {
-  font-family: "Work Sans";
+  font-family: "Montserrat";
   font-size: 50px;
   border-radius: 5rem;
   font-weight: 300;
