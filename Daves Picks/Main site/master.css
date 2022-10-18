@@ -174,4 +174,18 @@ h1 {
 height: 40rem;
 margin-bottom: 15rem;
 background-color: grey;
+display: inline;
+}
+
+.review-box
+{
+width: 50%;
+height: 30%;
+border-color: black;
+border: 1px;
+}
+
+.float
+{
+  float: left;
 }
