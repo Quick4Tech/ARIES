@@ -35,7 +35,7 @@ h1 {
 
 .btn {
   font-family: "Work Sans";
-  font-size: 30px;
+  font-size: 50px;
   border-radius: 5rem;
   font-weight: 300;
 	text-shadow:
@@ -55,43 +55,63 @@ h1 {
   border-width: 3px
 }
 
-.pizza-btn {
-  background-image: url('images/pizza2.png') !important;
+.pizza-sub-btn {
+  background-image: url('images/pizza-sub50.png') !important;
   background-size: cover;
 }
 
-.subs-btn {
-  background-image: url('images/sub.png') !important;
+.pizza-sub-btn:hover {
+	background-image: url('images/pizza-sub75.png') !important;
   background-size: cover;
 }
 
-.bars-btn {
-  background-image: url('images/bar.jpg') !important;
+.bars-diners-btn {
+  background-image: url('images/bars-diners50.png') !important;
   background-size: cover;
 }
 
-.mexican-btn {
-  background-image: url('images/mexican.png') !important;
-  background-size: cover;
-}
-
-.diners-btn {
-  background-image: url('images/diner.png') !important;
+.bars-diners-btn:hover {
+  background-image: url('images/bars-diners75.png') !important;
   background-size: cover;
 }
 
 .chinese-btn {
-  background-image: url('images/chinese.jpg') !important;
+  background-image: url('images/chinese50.png') !important;
+  background-size: cover;
+}
+
+.chinese-btn:hover {
+  background-image: url('images/chinese75.png') !important;
   background-size: cover;
 }
 
 .fast-food-btn {
-  background-image: url('images/fast-food.jpg') !important;
+  background-image: url('images/fast-food50.png') !important;
+  background-size: cover;
+}
+
+.fast-food-btn:hover {
+  background-image: url('images/fast-food75.png') !important;
   background-size: cover;
 }
 
 .treats-btn {
-  background-image: url('images/treats.jpg') !important;
+  background-image: url('images/treats50.png') !important;
+  background-size: cover;
+}
+
+.treats-btn:hover {
+  background-image: url('images/treats75.png') !important;
+  background-size: cover;
+}
+
+.coffee-btn {
+  background-image: url('images/coffee50.png') !important;
+  background-size: cover;
+}
+
+.coffee-btn:hover {
+  background-image: url('images/coffee50.png') !important;
   background-size: cover;
 }
 
@@ -104,16 +124,6 @@ h1 {
 
 .restaurant-column {
   margin: .5rem 0 .5rem 0;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #fff
-}
-
-a {
-  text-decoration: none;
-  color: #fff
 }
 
 /* Restaurants */
