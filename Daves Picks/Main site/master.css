@@ -43,7 +43,7 @@ h1 {
 	height: auto;
 	position: absolute;
 	top: 60px;
-	left: -20px;
+	left: -0.75rem;
 	z-index: 0;
 }
 
@@ -51,7 +51,7 @@ h1 {
   font-family: "Montserrat";
   font-size: 3.6rem;
   border-radius: 5rem;
-  font-weight: 300;
+  font-weight: 600;
 	text-shadow:
 	-2px 2px 4px #000,
 	2px 2px 4px #000,
@@ -62,10 +62,10 @@ h1 {
 
 .btn:hover {
 	text-shadow:
-	-2px 2px 4px #fff,
-	2px 2px 4px #fff,
-	2px -2px 4px #fff,
-	-2px -2px 4px #fff;
+	-1px 1px 2px #fff,
+	1px 1px 2px #fff,
+	1px -1px 2px #fff,
+	-1px -1px 2px #fff;
 }
 
 .btn-primary {
@@ -79,62 +79,62 @@ h1 {
 }
 
 .pizza-sub-btn {
-  background-image: url('images/pizza-sub50.png') !important;
+  background-image: url('images/pizza-sub75.png');
   background-size: cover;
 }
 
 .pizza-sub-btn:hover {
-	background-image: url('images/pizza-sub75.png') !important;
+	background-image: url('images/pizza-sub50.png');
   background-size: cover;
 }
 
 .bars-diners-btn {
-  background-image: url('images/bars-diners50.png') !important;
+  background-image: url('images/bars-diners75.png');
   background-size: cover;
 }
 
 .bars-diners-btn:hover {
-  background-image: url('images/bars-diners75.png') !important;
+  background-image: url('images/bars-diners50.png');
   background-size: cover;
 }
 
 .chinese-btn {
-  background-image: url('images/chinese50.png') !important;
+  background-image: url('images/chinese75.png');
   background-size: cover;
 }
 
 .chinese-btn:hover {
-  background-image: url('images/chinese75.png') !important;
+  background-image: url('images/chinese50.png');
   background-size: cover;
 }
 
 .fast-food-btn {
-  background-image: url('images/fast-food50.png') !important;
+  background-image: url('images/fast-food75.png');
   background-size: cover;
 }
 
 .fast-food-btn:hover {
-  background-image: url('images/fast-food75.png') !important;
+  background-image: url('images/fast-food50.png');
   background-size: cover;
 }
 
 .treats-btn {
-  background-image: url('images/treats50.png') !important;
+  background-image: url('images/treats75.png');
   background-size: cover;
 }
 
 .treats-btn:hover {
-  background-image: url('images/treats75.png') !important;
+  background-image: url('images/treats50.png');
   background-size: cover;
 }
 
 .coffee-btn {
-  background-image: url('images/coffee50.png') !important;
+  background-image: url('images/coffee75.png');
   background-size: cover;
 }
 
 .coffee-btn:hover {
-  background-image: url('images/coffee50.png') !important;
+  background-image: url('images/coffee50.png');
   background-size: cover;
 }
 
