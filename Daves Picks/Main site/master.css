@@ -166,26 +166,21 @@ h1 {
 
 #restaurant-cards {
   text-align: center;
-  padding: 0 10% 0;
+  padding: 0 2% 0;
 }
 
 .food-page
 {
 height: 40rem;
-margin-bottom: 15rem;
-background-color: grey;
-display: inline;
+font-size: 1.8rem;
 }
 
 .review-box
 {
-width: 50%;
-height: 30%;
+width: 20%;
+height: 50%;
 border-color: black;
-border: 1px;
-}
-
-.float
-{
-  float: left;
+border-width: 1px;
+float: right;
+font-size: 1.2rem
 }
