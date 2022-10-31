@@ -75,7 +75,7 @@ h1 {
 }
 
 .btn-primary:hover {
-	border-color: #000;
+	border-color: #fff;
 }
 
 .pizza-sub-btn {
@@ -169,14 +169,12 @@ h1 {
   padding: 0 2% 0;
 }
 
-.food-page
-{
+.food-page {
 height: 40rem;
 font-size: 1.8rem;
 }
 
-.review-box
-{
+.review-box {
 width: 20%;
 height: 50%;
 border-color: black;
