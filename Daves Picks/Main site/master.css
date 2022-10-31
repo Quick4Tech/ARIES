@@ -6,11 +6,15 @@ h1 {
   line-height: 0.1;
 }
 
+.subtitle {
+	font-size: 1.5rem;
+}
+
 /* Title & Buttons */
 .title-container {
   font-family: "Montserrat";
   font-weight: 300;
-  background-color: #140f3b;
+  background-image: linear-gradient(#000, #140f3b);
   text-align: center;
   color: white;
   padding: 10% 0 6% 0;
@@ -18,80 +22,119 @@ h1 {
 
 .sub-bold {
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 #title-text {
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 5rem;
   margin-bottom: 40px;
 }
 
 #title-buttons {
   text-align: center;
   padding: 0 10% 11%;
-  background-color: #140f3b;
+  background-image: linear-gradient(#140f3b, #121b5c);
+}
+
+.map {
+	opacity: .1;
+	max-width: 100%;
+	height: auto;
+	position: absolute;
+	top: 60px;
+	left: -0.75rem;
+	z-index: 0;
 }
 
 .btn {
-  font-family: "Work Sans";
-  font-size: 30px;
+  font-family: "Montserrat";
+  font-size: 3.6rem;
   border-radius: 5rem;
-  font-weight: 300;
+  font-weight: 600;
 	text-shadow:
 	-2px 2px 4px #000,
 	2px 2px 4px #000,
 	2px -2px 4px #000,
 	-2px -2px 4px #000;
+	z-index: 1;
+}
+
+.btn:hover {
+	text-shadow:
+	-1px 1px 2px #fff,
+	1px 1px 2px #fff,
+	1px -1px 2px #fff,
+	-1px -1px 2px #fff;
 }
 
 .btn-primary {
+	border-color: #fff;
   background-color: #140f3b;
   border-width: 3px
 }
 
-.btn-primary {
-  background-color: #140f3b;
-  border-width: 3px
+.btn-primary:hover {
+	border-color: #000;
 }
 
-.pizza-btn {
-  background-image: url('images/pizza2.png') !important;
+.pizza-sub-btn {
+  background-image: url('images/pizza-sub75.png');
   background-size: cover;
 }
 
-.subs-btn {
-  background-image: url('images/sub.png') !important;
+.pizza-sub-btn:hover {
+	background-image: url('images/pizza-sub50.png');
   background-size: cover;
 }
 
-.bars-btn {
-  background-image: url('images/bar.jpg') !important;
+.bars-diners-btn {
+  background-image: url('images/bars-diners75.png');
   background-size: cover;
 }
 
-.mexican-btn {
-  background-image: url('images/mexican.png') !important;
-  background-size: cover;
-}
-
-.diners-btn {
-  background-image: url('images/diner.png') !important;
+.bars-diners-btn:hover {
+  background-image: url('images/bars-diners50.png');
   background-size: cover;
 }
 
 .chinese-btn {
-  background-image: url('images/chinese.jpg') !important;
+  background-image: url('images/chinese75.png');
+  background-size: cover;
+}
+
+.chinese-btn:hover {
+  background-image: url('images/chinese50.png');
   background-size: cover;
 }
 
 .fast-food-btn {
-  background-image: url('images/fast-food.jpg') !important;
+  background-image: url('images/fast-food75.png');
+  background-size: cover;
+}
+
+.fast-food-btn:hover {
+  background-image: url('images/fast-food50.png');
   background-size: cover;
 }
 
 .treats-btn {
-  background-image: url('images/treats.jpg') !important;
+  background-image: url('images/treats75.png');
+  background-size: cover;
+}
+
+.treats-btn:hover {
+  background-image: url('images/treats50.png');
+  background-size: cover;
+}
+
+.coffee-btn {
+  background-image: url('images/coffee75.png');
+  background-size: cover;
+}
+
+.coffee-btn:hover {
+  background-image: url('images/coffee50.png');
   background-size: cover;
 }
 
@@ -106,21 +149,14 @@ h1 {
   margin: .5rem 0 .5rem 0;
 }
 
-a:hover {
-  text-decoration: none;
-  color: #fff
-}
-
-a {
-  text-decoration: none;
-  color: #fff
-}
-
 /* Restaurants */
 .genre-titles {
+  margin-bottom: 10rem;
   padding: 8% 0 30px;
   font-size: 3rem;
   font-family: "Montserrat";
+  background-color: #1d1463;
+  color: #fff;
 }
 
 .restaurants {
@@ -130,5 +166,21 @@ a {
 
 #restaurant-cards {
   text-align: center;
-  padding: 0 10% 0;
+  padding: 0 2% 0;
+}
+
+.food-page
+{
+height: 40rem;
+font-size: 1.8rem;
+}
+
+.review-box
+{
+width: 20%;
+height: 50%;
+border-color: black;
+border-width: 1px;
+float: right;
+font-size: 1.2rem
 }
