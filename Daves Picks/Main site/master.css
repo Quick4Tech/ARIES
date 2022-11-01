@@ -180,6 +180,8 @@ h1 {
 {
 height: 40rem;
 font-size: 1.8rem;
+border: solid;
+border-radius: 15px;
 }
 
 .review-box
