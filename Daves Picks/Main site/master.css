@@ -178,8 +178,6 @@ padding: 1.5rem;
   padding: 0 2% 0;
 }
 
-/* Food Page sellectors */
-
 .food-page
 {
 height: 70;
@@ -239,8 +237,7 @@ border-radius: 24px;
 
 }
 
-.review-box
-{
+.review-box {
 width: 20%;
 height: 50%;
 border-color: black;
