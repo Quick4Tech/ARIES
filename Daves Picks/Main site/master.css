@@ -157,6 +157,13 @@ h1 {
   font-family: "Montserrat";
   background-color: #1d1463;
   color: #fff;
+  display: block;
+}
+
+.restaurant-title
+{
+  text-align: center;
+  font-family: sans-serif;
 }
 
 .restaurants {
