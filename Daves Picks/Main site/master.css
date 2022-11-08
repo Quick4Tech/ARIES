@@ -151,16 +151,21 @@ padding: 1.5rem;
 
 .genre-titles {
 
-  margin-bottom: 10rem;
+  margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
   height: 10rem;
   line-height: 10rem;
   font-size: 4vw;
   font-size: 4vh;
   font-family: "Montserrat";
-  background-color: #121b5c;
+  background-color: #192478;
   color: #fff;
   text-align: center;
   vertical-align: middle;
+}
+
+#first-title {
+margin-top: 3rem;
 }
 
 .restaurant-title
@@ -240,7 +245,7 @@ border-radius: 24px;
 
 .website-div
 {
-
+margin-bottom: 1.25rem;
 }
 
 .review-box {
