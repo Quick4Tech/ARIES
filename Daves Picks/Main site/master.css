@@ -411,7 +411,7 @@ font-size: 1.2rem
 a.btn>span.glyphicon {
 	margin-left: 12px;
 }
-@media (min-width: 520px) {
+@media (min-width: 500px) {
   	.button-wrapper {
 		align-items: center;
     	flex-flow: row wrap;
